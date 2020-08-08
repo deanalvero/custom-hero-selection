@@ -1,0 +1,16 @@
+.DS_Store
+Desktop.ini
+
+*.vpk
+*.vtex_c
+*.vpcf_c
+*.vmat_c
+*.vxml_c
+*.vjs_c
+*.vcss_c
+*.vsndevts_c
+*.bin
+
+node_modules
+
+.vscode
