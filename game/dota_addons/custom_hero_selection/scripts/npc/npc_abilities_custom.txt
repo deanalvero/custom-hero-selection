@@ -63,8 +63,8 @@
 		"AbilityTextureName"			"night_stalker_darkness"
 	}
 	
-    "fufu_tree_dance"
-    {
+	"fufu_tree_dance"
+	{
 		"BaseClass"						"ability_datadriven"
 		"AbilityTextureName"			"monkey_king_tree_dance"
 	}

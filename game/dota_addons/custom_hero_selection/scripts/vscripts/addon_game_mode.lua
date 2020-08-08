@@ -23,10 +23,10 @@ end
 function CAddonTemplateGameMode:InitGameMode()
 	print( "Template addon is loaded." )
 
-    GameRules:SetCustomGameSetupAutoLaunchDelay(0)
+	GameRules:SetCustomGameSetupAutoLaunchDelay(0)
 
 	local GameMode = GameRules:GetGameModeEntity()
-    GameMode:SetCustomGameForceHero("npc_dota_hero_wisp")
+	GameMode:SetCustomGameForceHero("npc_dota_hero_wisp")
 
 	CustomGameEventManager:RegisterListener("js_player_select_hero", OnJSPlayerSelectHero)
 
@@ -48,19 +48,19 @@ function OnJSPlayerSelectHero(event, keys)
 	local hero_name = keys["hero_name"]
 	
 	local current_hero_name = PlayerResource:GetSelectedHeroName(player_id)
-  	if current_hero_name == nil then
-    	return
-  	end
+	if current_hero_name == nil then
+		return
+	end
 
 	if current_hero_name == "npc_dota_hero_wisp" then
-    	local selectedHero = PlayerResource:ReplaceHeroWith(player_id, hero_name, PlayerResource:GetGold(player_id), 0)
-    	if selectedHero == nil then
+		local selectedHero = PlayerResource:ReplaceHeroWith(player_id, hero_name, PlayerResource:GetGold(player_id), 0)
+		if selectedHero == nil then
 			return
-    	end
-  	end
+		end
+	end
 
 	local player = PlayerResource:GetPlayer(player_id)
-  	if player ~= nil then
-    	CustomGameEventManager:Send_ServerToPlayer(player, "selection_end", {})
-  	end
+	if player ~= nil then
+		CustomGameEventManager:Send_ServerToPlayer(player, "selection_end", {})
+	end
 end
