@@ -1,0 +1,97 @@
+.MainPanel
+{
+    width: 100%;
+    height: 100%;
+    overflow: clip;
+}
+
+.HeroSelectRoot
+{
+    background-color: #1e1f20ff;
+    border: 1px solid #00000088;
+    box-shadow: #00000044 -4px -4px 8px 8px;
+    vertical-align: center;
+    horizontal-align: center;
+    overflow: clip;
+    flow-children: down;
+    border-radius: 5px;
+}
+
+.HeroPanel
+{
+	margin-right: 20px;
+	margin-left: 20px;
+    flow-children: right;
+    horizontal-align: center;
+}
+
+.HeroImage
+{
+    border: 4px;
+}
+
+.AbilityImage
+{
+    width: 100px;
+    height: 100px;
+}
+
+.AbilityItemPanel
+{
+    flow-children: right;
+}
+
+.AbilityPanel
+{
+	margin-right: 20px;
+	margin-left: 20px;
+    flow-children: right;
+    horizontal-align: center;
+}
+
+.SelectPanel
+{
+    horizontal-align: center;
+}
+
+#NinjaSelectLabel
+{
+    text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    width: 100%;
+    background-color: #00000088;
+    text-align: center;
+	font-size: 40px;
+	color: #cccccc;
+}
+
+#HeroName
+{
+    horizontal-align: center;
+	font-size: 30px;
+	color: #FFD700;
+}
+
+.SelectHeroButton
+{
+    min-width: 280px;
+    height: 54px;
+    padding: 4px 12px 4px 12px;
+    margin: 20px;
+    background-color: #1e5799;
+    border-radius: 3px;
+}
+
+.SelectHeroButton Label
+{
+    align: center center;
+    text-transform: uppercase;
+    color: #DDD;
+    font-size: 26px;
+}
+
+.SelectHeroButton:hover
+{
+    background-color: gradient( linear, 0% 0%, 0% 100%, from( #1e5799 ), to( #2989d8 ));
+}

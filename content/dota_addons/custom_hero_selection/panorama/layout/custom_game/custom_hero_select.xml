@@ -1,0 +1,49 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/custom_hero_select.css" />
+	</styles>
+    <scripts>
+		<include src="file://{resources}/scripts/custom_game/custom_hero_select.js" />
+	</scripts>
+    <Panel class="MainPanel" hittest="false">
+
+        <Panel id="HeroSelectRoot" class="HeroSelectRoot" hittest="true">
+            <Label id="NinjaSelectLabel" text="#ninja_select" style="" />
+            
+            <Label id="HeroName" style="" />
+            <Panel class="HeroPanel">
+                <DOTAHeroImage id="HeroImage0" class="HeroImage" heroname="npc_dota_hero_brewmaster" heroimagestyle="portrait" onactivate="OnHighlightHero(0)" onmouseover="OnHeroMouseOver(0)" onmouseout="OnHeroMouseOut(0)"/>
+                <DOTAHeroImage id="HeroImage1" class="HeroImage" heroname="npc_dota_hero_night_stalker" heroimagestyle="portrait" onactivate="OnHighlightHero(1)" onmouseover="OnHeroMouseOver(1)" onmouseout="OnHeroMouseOut(1)"/>
+                <DOTAHeroImage id="HeroImage2" class="HeroImage" heroname="npc_dota_hero_bounty_hunter" heroimagestyle="portrait" onactivate="OnHighlightHero(2)" onmouseover="OnHeroMouseOver(2)" onmouseout="OnHeroMouseOut(2)"/>
+                <DOTAHeroImage id="HeroImage3" class="HeroImage" heroname="npc_dota_hero_treant" heroimagestyle="portrait" onactivate="OnHighlightHero(3)" onmouseover="OnHeroMouseOver(3)" onmouseout="OnHeroMouseOut(3)"/>
+            </Panel>
+
+            <Panel class="AbilityPanel">
+                <Panel class="AbilityItemPanel" onmouseover="OnMouseOver(0)" onmouseout="OnMouseOut(0)">
+                    <DOTAAbilityImage id="HeroAbility0" class="AbilityImage"/>
+                </Panel>
+
+                <Panel class="AbilityItemPanel" onmouseover="OnMouseOver(1)" onmouseout="OnMouseOut(1)">
+                    <DOTAAbilityImage id="HeroAbility1" class="AbilityImage"/>
+                </Panel>
+
+                <Panel class="AbilityItemPanel" onmouseover="OnMouseOver(2)" onmouseout="OnMouseOut(2)">
+                    <DOTAAbilityImage id="HeroAbility2" class="AbilityImage"/>
+                </Panel>
+
+                <Panel class="AbilityItemPanel" onmouseover="OnMouseOver(3)" onmouseout="OnMouseOut(3)">
+                    <DOTAAbilityImage id="HeroAbility3" class="AbilityImage"/>
+                </Panel>
+
+                <Panel class="AbilityItemPanel" onmouseover="OnMouseOver(4)" onmouseout="OnMouseOut(4)">
+                    <DOTAAbilityImage id="HeroAbility4" class="AbilityImage"/>
+                </Panel>
+            </Panel>
+
+            <Panel class="SelectPanel">
+                <Button class="SelectHeroButton" onactivate="OnSelectHero()"><Label text="#Select"></Label></Button>
+            </Panel>
+        </Panel>
+
+    </Panel>
+</root>

@@ -3,47 +3,69 @@
 {
 	"Version"		"1"
 
-	//=================================================================================================================
-	// Templar Assassin: Refraction Holdout
-	//=================================================================================================================
-	"templar_assassin_refraction_holdout"
+	"fufu_shuriken"
 	{
-		// General
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"bounty_hunter_shuriken_toss"
+	}
 
-		// Casting
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastPoint"				"0.0 0.0 0.0 0.0"
+	"fufu_dodge"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"blue_dragonspawn_sorcerer_evasion"
+	}
 
-		// Time		
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"17.0 17.0 17.0 17.0"
+	"fufu_cloak"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"clinkz_wind_walk"
+	}
+	
+	"fufu_bomb"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"techies_land_mines"
+	}
 
-		// Cost
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityManaCost"				"100"
-		
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"damage_absorb"				"200 300 400 500"
-			}
-			"02"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"bonus_damage"				"20 40 60 80"
-			}
-			"04"
-			{
-				"var_type"					"FIELD_FLOAT"
-				"duration"					"17.0 17.0 17.0 17.0"
-			}
-		}
+	"fufu_blink_strike"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"phantom_assassin_phantom_strike"
+	}
+
+	"fufu_stasis_trap"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"techies_stasis_trap"
+	}
+
+	"fufu_blink"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"antimage_blink"
+	}
+
+	"fufu_teleportation"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"furion_teleportation"
+	}
+
+	"fufu_stomp"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"brewmaster_thunder_clap"
+	}
+	
+	"fufu_mirror_image"
+	{
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"night_stalker_darkness"
+	}
+	
+    "fufu_tree_dance"
+    {
+		"BaseClass"						"ability_datadriven"
+		"AbilityTextureName"			"monkey_king_tree_dance"
 	}
 }

@@ -1,0 +1,6 @@
+<root>
+
+	<Panel>
+		<CustomUIElement type="Hud"					layoutfile="file://{resources}/layout/custom_game/custom_hero_select.xml" />
+	</Panel>
+</root>

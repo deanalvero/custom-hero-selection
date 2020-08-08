@@ -1,0 +1,8 @@
+"CustomHeroList"
+{
+	"npc_dota_hero_wisp"	"-1"
+	"npc_dota_hero_bounty_hunter"		"-1"
+	"npc_dota_hero_brewmaster"		"-1"
+	"npc_dota_hero_night_stalker"		"-1"
+	"npc_dota_hero_treant"			"-1"
+}
