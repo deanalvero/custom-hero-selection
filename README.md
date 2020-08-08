@@ -1,5 +1,5 @@
 # Custom Hero Selection
-"Custom Hero Selection" is shows how to customize the hero selection for your a Dota 2 custom game.
+"Custom Hero Selection" shows how to customize the hero selection for your a Dota 2 custom game.
 
 ![Fufu Ninja](/screenshot/fufu_ninja_1.jpg)
 
