@@ -3,4 +3,4 @@
 
 ![Fufu Ninja](/screenshot/fufu_ninja_1.jpg)
 
-This custom hero selection screen is used in [Fufu Ninja: Ninja Wars](https://steamcommunity.com/sharedfiles/filedetails/?id=2082787095)!
+This custom hero selection screen is used in [FUFU NINJA](https://steamcommunity.com/sharedfiles/filedetails/?id=2238095540): [https://steamcommunity.com/sharedfiles/filedetails/?id=2238095540](https://steamcommunity.com/sharedfiles/filedetails/?id=2238095540)!
